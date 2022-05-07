@@ -1,17 +1,23 @@
 .navbar {
-    width: 100%;
-    height: 10%;
     position: sticky;
     top: 0;
-    background-color: #ff0000;
+    background-color: #ececec;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 5px;
 
-    .nav-list {
-        list-style-type: none;
-        background-color: #ff0000;
+    .navbar-items {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
 
-        li {
-            width: 30%;
-            float: left;
+        h5 {
+            font-size: 1em;
+            margin: 10px;
+        }
+
+        .social-icon {
+            margin: 10px;
         }
     }
 }

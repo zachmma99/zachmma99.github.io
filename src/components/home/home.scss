@@ -1,9 +1,16 @@
 .home {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
+    width: 100%;
 
-    h1 {
-        color: blue;
+    .home-content {
+        width: 70%;
+        margin: 10px;
+        padding: 10px;
+
+        h1 {
+            color: rgb(80, 80, 80);
+        }
     }
 }
