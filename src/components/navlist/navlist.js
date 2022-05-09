@@ -26,6 +26,10 @@ export default class Navlist extends Component {
                         <FontAwesomeIcon icon="caret-right" className="arrow" />
                     </div>
                     <div className="navlist-item">
+                        <h5>Blog</h5>
+                        <FontAwesomeIcon icon="caret-right" className="arrow" />
+                    </div>
+                    <div className="navlist-item">
                         <h5>Contact</h5>
                         <FontAwesomeIcon icon="caret-right" className="arrow" />
                     </div>

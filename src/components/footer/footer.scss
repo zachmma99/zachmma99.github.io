@@ -1,0 +1,17 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: hsl(0, 14%, 93%);
+    text-align: center;
+
+    p {
+        font-size: 1em;
+
+        a {
+            color: black;
+            text-decoration: none;
+        }
+    }
+}

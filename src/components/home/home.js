@@ -1,19 +1,30 @@
 import React, { Component } from 'react';
-import Navlist from '../navlist/navlist';
 
 import './home.scss';
 
+import Navlist from '../navlist/navlist';
+import Intro from './intro';
+import Projects from '../projects/projects';
+import Contact from '../contact/contact';
+
 export default class Home extends Component {
+
+    constructor(props) {
+        super();
+
+        this.state = {
+
+        }
+    }
     
     render() {
         return(
-            <div className='home container'>
+            <div className='home'>
                 <Navlist />
                 <div className='home-content'>
-                    <h1>Zachary Johnson</h1>
-                    <h3>
-                        Hello there, my name is Zachary Johnson.
-                    </h3>
+                    <Intro />
+                    <Projects />
+                    <Contact />
                 </div>
             </div>
         );

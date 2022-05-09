@@ -1,8 +1,10 @@
 .home {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     text-align: center;
     width: 100%;
+    margin-bottom: 50px;
 
     .home-content {
         width: 70%;
@@ -13,4 +15,9 @@
             color: rgb(80, 80, 80);
         }
     }
+}
+
+.intro {
+    display: none;
+    width: 100%;
 }
