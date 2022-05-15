@@ -4,8 +4,6 @@ import './home.scss';
 
 import Navlist from '../navlist/navlist';
 import Intro from './intro';
-import Projects from '../projects/projects';
-import Contact from '../contact/contact';
 
 export default class Home extends Component {
 
@@ -23,8 +21,6 @@ export default class Home extends Component {
                 <Navlist />
                 <div className='home-content'>
                     <Intro />
-                    <Projects />
-                    <Contact />
                 </div>
             </div>
         );

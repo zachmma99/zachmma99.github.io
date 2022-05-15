@@ -2,6 +2,8 @@ import React from "react";
 
 import './contact.scss';
 
+import { SocialIcon } from 'react-social-icons';
+
 export default function Contact () {
 
     return (
@@ -15,7 +17,14 @@ export default function Contact () {
                 I look forward to hearing from you!
             </p>
             <br />
-            <a href="mailto:johnsonz3@wit.edu">Contact Me!</a>
+            <a href="mailto:johnsonz3@wit.edu subject:Saw your site!" className="contact-btn">Contact Me!</a>
+            <br />
+            <div className='social-icons'>
+                <SocialIcon url='https://www.linkedin.com/in/johnsonzm' target='_blank' className='social-icon' style={{ height: 35, width: 35 }} />
+                <SocialIcon url='https://www.github.com/zachmma99' target='_blank' className='social-icon' style={{ height: 35, width: 35 }} />
+                <SocialIcon url='https://www.twitter.com/zachmma99' target='_blank' className='social-icon' style={{ height: 35, width: 35 }} />
+                <SocialIcon url='https://discord.com' target='_blank' className='social-icon' style={{ height: 35, width: 35 }} />
+            </div>
         </div>
     );
 }

@@ -8,7 +8,7 @@
         width: 75%;
     }
 
-    a {
+    .contact-btn {
         background-color:#00ddff;
         border: 1px solid #1e3650;
         border-radius: 16px;
@@ -22,5 +22,11 @@
         text-decoration: none;
         width: 200px;
         -webkit-text-size-adjust: none;
+    }
+
+    .social-icons {
+        .social-icon {
+            margin: 10px;
+        }
     }
 }

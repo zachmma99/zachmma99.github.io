@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faCaretRight } from "@fortawesome/free-solid-svg-icons";
@@ -14,24 +15,34 @@ export default class Navlist extends Component {
             <div className="navlist">
                 <div className="navlist-items">
                     <div className="navlist-item">
-                        <h5>Home</h5>
-                        <FontAwesomeIcon icon="caret-right" className="arrow" />
+                        <Link to='/home'>
+                            Home
+                            <FontAwesomeIcon icon="caret-right" className="arrow" />
+                        </Link>
                     </div>
                     <div className="navlist-item">
-                        <h5>About Me</h5>
-                        <FontAwesomeIcon icon="caret-right" className="arrow" />
+                        <Link to='/about'>
+                            <h5>About Me</h5>
+                            <FontAwesomeIcon icon="caret-right" className="arrow" />
+                        </Link>
                     </div>
                     <div className="navlist-item">
-                        <h5>Projects</h5>
-                        <FontAwesomeIcon icon="caret-right" className="arrow" />
+                        <Link to='/projects'>
+                            <h5>Projects</h5>
+                            <FontAwesomeIcon icon="caret-right" className="arrow" />
+                        </Link>
                     </div>
                     <div className="navlist-item">
-                        <h5>Blog</h5>
-                        <FontAwesomeIcon icon="caret-right" className="arrow" />
+                        <Link to='/blog'>
+                            <h5>Blog</h5>
+                            <FontAwesomeIcon icon="caret-right" className="arrow" />
+                        </Link>
                     </div>
                     <div className="navlist-item">
-                        <h5>Contact</h5>
-                        <FontAwesomeIcon icon="caret-right" className="arrow" />
+                        <Link to='/contact'>
+                            <h5>Contact</h5>
+                            <FontAwesomeIcon icon="caret-right" className="arrow" />
+                        </Link>
                     </div>
                 </div>
             </div>
