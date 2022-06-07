@@ -15,10 +15,11 @@ export default function Projects () {
                     <p>Here you will find a summary of my work and projects.</p>
                     <div className="projects-content">
                         <div className="project-card">
-                            <h5>Project Name</h5>
+                            <h5>Revolution</h5>
                             <p>
                                 Lorem Ipsum
                             </p>
+                            <img src={"https://www.rd.com/wp-content/uploads/2021/01/GettyImages-1175550351.jpg"}></img>
                         </div>
                         <div className="project-card">
                             <h5>Project Name</h5>

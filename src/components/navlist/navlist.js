@@ -15,31 +15,31 @@ export default class Navlist extends Component {
             <div className="navlist">
                 <div className="navlist-items">
                     <div className="navlist-item">
-                        <Link to='/home'>
-                            Home
+                        <Link to='/home' className="navlist-link">
+                            <h5>Home</h5>
                             <FontAwesomeIcon icon="caret-right" className="arrow" />
                         </Link>
                     </div>
                     <div className="navlist-item">
-                        <Link to='/about'>
+                        <Link to='/about' className="navlist-link">
                             <h5>About Me</h5>
                             <FontAwesomeIcon icon="caret-right" className="arrow" />
                         </Link>
                     </div>
                     <div className="navlist-item">
-                        <Link to='/projects'>
+                        <Link to='/projects' className="navlist-link">
                             <h5>Projects</h5>
                             <FontAwesomeIcon icon="caret-right" className="arrow" />
                         </Link>
                     </div>
                     <div className="navlist-item">
-                        <Link to='/blog'>
+                        <Link to='/blog' className="navlist-link">
                             <h5>Blog</h5>
                             <FontAwesomeIcon icon="caret-right" className="arrow" />
                         </Link>
                     </div>
                     <div className="navlist-item">
-                        <Link to='/contact'>
+                        <Link to='/contact' className="navlist-link">
                             <h5>Contact</h5>
                             <FontAwesomeIcon icon="caret-right" className="arrow" />
                         </Link>
